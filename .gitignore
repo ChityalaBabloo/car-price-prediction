@@ -1,0 +1,3 @@
+#folders/sub-folders that need to be ignored.
+.vscode/
+.ipynb_checkpoints/
