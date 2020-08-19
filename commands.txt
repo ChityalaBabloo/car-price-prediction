@@ -1,0 +1,15 @@
+#open cmd and navigate to project folder, then enter 'heroku login'
+#initializing git
+$ git init
+$ git add .
+$ git commit -m "my first comit"
+
+#creating app
+heroku create <give-app-name>
+Note: if gien app name is available, then it is created else try other name
+
+#Lastly add git remote:
+$ heroku git:remote -a YourAppName
+
+#Now you can safely deploy your app with:
+$ git push heroku master
